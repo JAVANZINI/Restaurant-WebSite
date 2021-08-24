@@ -1,0 +1,113 @@
+<DOCTYPE html>
+<!--
+    Name: JC Avanzini
+    Date Created: 07/23/2021
+    Most recent revision:
+-->
+<html lang="en">
+<head>
+
+
+ <script type="text/JavaScript" src="restaurant.js"></script>
+ <noscript>
+
+  <div class="awesome-fancy-styling">
+    Sorry...JavaScript is needed to go ahead. I will only be visible if you have it disabled.
+  </div>
+  ...
+</noscript>
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Peru</title>
+<link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+<style>
+
+label.required {
+ color: #c00;
+ font-weight: bold;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<p>Contact Us</p>
+ <hr /> 
+<header>
+<h1>Peru</h1>
+</header>
+<nav>
+
+   <a class="btn badge-pill"  href="Home.html"> <img src="C:\Users\Jose\Desktop\the software guild\open-iconic-master/svg/home.svg" width="20" height="20">Home</a>
+
+
+  <a class="btn badge-pill" href="Menu.html">Menu</a>
+  
+
+  <a class="btn" href="Contact Us.html">Contact Us</a>
+</nav>
+
+<hr />
+
+ <form Name="numberFun" onsubmit="return validateItems();" 
+          onreset="resetForm();" class="form-inline">
+
+<label for="Name">Name:</label> <br />
+<input type="text" id="Name" name="Name" pattern="[A-Za-z]+"> <br />
+
+<label for="Email">Email:</label><br />
+<input type="email" id="Email" name="Email"> <br />
+<label for="Phone">Phone :</label><br />
+<input type="text" id="Phone" name="Phone" "> <br />
+<label for="contact">Reason for inquiry:</label><br />
+<select id="contact" name="contact">
+<option value="default" selected>Catering</option>
+<option value="morning">Private Party</option>
+<option value="afternoon">Feedback</option>
+<option value="evening">Other</option>
+</select>
+
+<p><label for="info">Additional Information</label><br /></p>
+<textarea id="info" name="info" pattern="[A-Za-z]{500}"></textarea><br />
+
+<fieldset>
+
+<legend>Have you been to the restaurant?:</legend><br />
+<input type="radio" id="choice1" name="questionnaire" value="No">
+<label for="choice1">No</label><br />
+<input type="radio" id="choice2" name="questionnaire" value="Yes">
+<label for="choice2">Yes</label><br />
+</fieldset>
+
+
+<fieldset>
+<legend>Best day to contact you:</legend><br />
+<input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+<label for="frontEnd">M</label>
+<input type="checkbox" id="backEnd" name="interest" value="backEnd">
+<label for="backEnd">T</label>
+<input type="checkbox" id="database" name="interest" value="database">
+<label for="database">W</label>
+<input type="checkbox" id="backEnd" name="interest" value="backEnd">
+<label for="backEnd">Th</label>
+<input type="checkbox" id="database" name="interest" value="database">
+<label for="database">F</label>
+</fieldset>
+<input type="submit" name="Send Request" value="Send Request">
+
+  </form>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+
+<p> 138 "El molle" street  Lima,Lima, Peru , Lima 12</p>
+<p> TelePhone number: +511 976 145 817</p>
+</footer>
